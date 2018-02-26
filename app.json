@@ -5,8 +5,8 @@
   "window": {
     "navigationBarTextStyle": "#ffffff",
     "navigationBarTitleText": "",
-    "navigationBarBackgroundColor": "#bf3542",
-    "backgroundColor": "#fbf9fe",
+    "navigationBarBackgroundColor": "#37383b",
+    "backgroundColor": "#37383b",
     "enablePullDownRefresh": true,
     "onReachBottomDistance": 50
   },

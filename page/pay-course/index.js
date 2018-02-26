@@ -14,7 +14,7 @@ P('index', {
     onLoad: function (options) {
       wx.setNavigationBarColor({
         frontColor: '#ffffff',
-        backgroundColor: '#bf3542',
+        backgroundColor: '#37383b',
         animation: {
           duration: 400,
           timingFunc: 'easeIn'
