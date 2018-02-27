@@ -32,6 +32,9 @@
   text-align: center;
   font-size: 30rpx;
 }
+.sub-type-active{
+  color: #e64340;
+}
 /******* 轮播图样式 ******/
 .swiper-container{
   width: 750rpx;
