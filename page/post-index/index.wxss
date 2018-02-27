@@ -83,7 +83,7 @@ swiper-item image {
   height: 70rpx;
   line-height: 70rpx;
   font-size: 40rpx;
-  color: red;
+  color: #e64340;
   font-weight: bold;
   margin-left: 10%;
 
