@@ -136,3 +136,38 @@ page {
 .section__ctn{
 
 }
+
+/**** tab切换样式 *******/
+.type-navbar{
+  white-space: nowrap;
+  height: 96rpx;
+  width: 100%;
+  background-color: #fff;
+  padding-bottom:0rpx;
+}
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+.type-box{
+  width:50%;
+  box-sizing: content-box;
+  font-size: 30rpx;
+  line-height: 80rpx;
+  text-align: center;
+  display: inline-block;
+  overflow: hidden;
+  margin-top:12rpx;
+  
+}
+.type-navbar-item{
+  width:100%;
+  margin:0 auto;
+  border-bottom: 7rpx solid #fff;
+}
+.type-item-on{
+  color: #e64340;
+  border-bottom: 7rpx solid #e64340;
+}
+

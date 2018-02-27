@@ -1,0 +1,110 @@
+/**index.wxss**/
+.container {
+  background-color: #fff;
+  min-height: 100%;
+  overflow-x: hidden;
+}
+.sub-type-container{
+  white-space: nowrap;
+  height: 96rpx;
+  width: 100%;
+  background-color: #fff;
+  padding-bottom:0rpx;
+  border-top: 2rpx solid #d6d6d6;
+  border-bottom: 2rpx solid #d6d6d6;
+}
+.sub-type-box{
+  width: 28%;
+  height: 96rpx;
+  line-height: 96rpx;
+  float: left;
+  color: #353535;
+  text-align: center;
+  font-size: 30rpx;
+}
+.sub-type-line{
+  border-right: 2rpx solid #d6d6d6;
+}
+.sub-type-search{
+  height: 96rpx;
+  line-height: 96rpx;
+  color: #353535;
+  text-align: center;
+  font-size: 30rpx;
+}
+/******* 轮播图样式 ******/
+.swiper-container{
+  width: 750rpx;
+  position: relative;  
+}
+.swiper_box {
+  width: 100%;
+  height:348rpx;
+}
+
+swiper-item image {
+  width: 100%;
+  display: inline-block;
+  overflow: hidden;
+  height:300rpx;
+}
+/*******  岗位列表样式 *****/
+.post-container{
+  width: 100%;
+  min-height: 600rpx;
+  background: #efeff4;
+}
+.post-item{
+  width: 100%;
+  height: 200rpx;
+  background: #fff;
+  margin-bottom: 20rpx;
+}
+.post-left{
+  width: 60%;
+  height: 100%;
+  float: left
+}
+.post-name{
+  width:90%;
+  display: block;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 38rpx;
+  color: black;
+  margin-left: 10%;
+}
+.post-price{
+  width: 90%;
+  display: block;
+  height: 70rpx;
+  line-height: 70rpx;
+  font-size: 40rpx;
+  color: red;
+  font-weight: bold;
+  margin-left: 10%;
+
+}
+.post-min{
+  width: 90%;
+  display: block;
+  height: 70rpx;
+  line-height:70rpx;
+  font-size: 28rpx;
+  color: #999999;
+  margin-left: 10%;
+}
+.post-right{
+  width: 40%;
+  height: 100%;
+  float: left;
+}
+.post-toDetail{
+  width: 140rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  border-radius: 10rpx;
+  border:3rpx solid #d6d6d6;
+  font-size: 26rpx; 
+  margin-top: 70rpx;                                
+}
