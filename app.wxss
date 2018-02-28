@@ -140,7 +140,7 @@ page {
 /**** tab切换样式 *******/
 .type-navbar{
   white-space: nowrap;
-  height: 96rpx;
+  height: 98.41rpx;
   width: 100%;
   background-color: #fff;
   padding-bottom:0rpx;
@@ -153,21 +153,21 @@ page {
 .type-box{
   width:50%;
   box-sizing: content-box;
-  font-size: 30rpx;
-  line-height: 80rpx;
+  font-size: 34rpx;
+  line-height: 84rpx;
   text-align: center;
   display: inline-block;
   overflow: hidden;
-  margin-top:12rpx;
+  margin-top:10rpx;
   
 }
 .type-navbar-item{
   width:100%;
   margin:0 auto;
-  border-bottom: 7rpx solid #fff;
+  border-bottom: 4rpx solid #fff;
 }
 .type-item-on{
-  color: #e64340;
-  border-bottom: 7rpx solid #e64340;
+  color: rgb(230, 67, 64);
+  border-bottom: 4rpx solid rgb(230, 67, 64);
 }
 
