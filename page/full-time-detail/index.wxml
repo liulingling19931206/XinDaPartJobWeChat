@@ -57,6 +57,27 @@
       <view class="info-line">
       </view>
       <span class="info-text">
+        福利待遇
+      </span>
+    </view>
+    <view class='info-con'>
+      <span class="fuli">五险</span>
+      <span class="fuli">带薪休假</span>
+      <span class="fuli">交通补贴</span>
+      <span class="fuli">话补</span>
+      <span class="fuli">车补</span>
+      <span class="fuli">交通补助</span>
+      <span class="fuli">交通补e贴</span>
+      <span class="fuli">话补3333</span>
+      <span class="fuli">车33333333补</span>
+      <span class="fuli">交通3333补助</span>
+    </view>
+  </view>
+  <view class='info-contenter'>
+    <view class='info-title'>
+      <view class="info-line">
+      </view>
+      <span class="info-text">
         工作时间
       </span>
     </view>

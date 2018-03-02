@@ -1,7 +1,9 @@
 {
-  "pages": [  
-    "page/part-time-detail/index",
-    "page/post-index/index"
+  "pages": [ 
+    "page/full-time-detail/index", 
+    "page/tip-off-add/index",      
+    "page/part-time-detail/index", 
+    "page/post-index/index"       
   ],
   "window": {
     "navigationBarTextStyle": "#ffffff",
@@ -37,7 +39,7 @@
         "text": "岗位"
       },
       {
-        "pagePath": "page/post-index/index",
+        "pagePath": "page/full-time-detail/index",
         "iconPath": "image/icon/tongxue-gray.png",
         "selectedIconPath": "image/icon/tongxue-red.png",
         "text": "人才"
