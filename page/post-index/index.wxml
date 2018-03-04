@@ -39,7 +39,7 @@
     </swiper>
   </view>
   <view class='post-container'>
-    <view class='post-item' wx:for="{{[1, 2, 3, 4, 5]}}" wx:for-item="i">
+    <view class='post-item' wx:for="{{[1, 2, 3, 4, 5]}}" wx:for-item="i" bindtap='toDetailTap'>
       <image src='../../image/post/{{i}}-employer.png' class="leveal-img"></image>
       <view class='post-left'>
         <span class="post-name">
@@ -70,7 +70,7 @@
         <view class="post-toDetail">查看</view>
       </view>
     </view>
-    <view class='post-item'>
+    <view class='post-item' bindtap='toDetailTap'>
       <image src='../../image/post/pt-employer.png' class="leveal-img"></image>
       <view class='post-left'>
         <span class="post-name">
@@ -101,7 +101,7 @@
         <view class="post-toDetail">查看</view>
       </view>
     </view>
-    <view class='post-item'>
+    <view class='post-item' bindtap='toDetailTap'>
       <image src='../../image/post/gg-employer.png' class="leveal-img"></image>
       <view class='post-left'>
         <span class="post-name">
@@ -132,7 +132,7 @@
         <view class="post-toDetail gg-btn">广告</view>
       </view>
     </view>
-    <view class='post-item'>
+    <view class='post-item' bindtap='toDetailTap'>
       <image src='../../image/post/wrz-employer.png' class="leveal-img"></image>
       <view class='post-left'>
         <span class="post-name">

@@ -1,4 +1,4 @@
-/************付费课堂页面****************/
+/************全职页面详情****************/
 var P = require('../../lib/wxpage')
 P('index', {
     data: {
@@ -33,5 +33,14 @@ P('index', {
     onPullDownRefresh: function () {
       //this.getPayCourseList();
       wx.stopPullDownRefresh()
+    },
+
+    /**
+     * 点击跳转到举报页面
+     * **/
+    toTipOffTap: function (e) {
+      wx.navigateTo({
+        url: "/page/tip-off-add/index?postId=1"
+      })
     },
 })

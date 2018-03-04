@@ -48,7 +48,7 @@
     <span>
       不要缴纳费用给企业。虚假职位或诈骗信息请举报！
     </span>
-    <view>
+    <view bindtap='toTipOffTap'>
       举报
     </view>
   </view>

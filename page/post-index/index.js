@@ -1,4 +1,4 @@
-/************付费课堂页面****************/
+/************岗位首页页面****************/
 var P = require('../../lib/wxpage')
 P('index', {
     data: {
@@ -68,5 +68,21 @@ P('index', {
       this.setData({
         activeSubTypeId: e.currentTarget.dataset.id
       });
+    },
+
+    /**
+     * 点击跳转到详情页面
+     * 判断是跳转到岗位详情or兼职详情
+     * **/
+    toDetailTap: function (e) {
+        if(this.data.activeTypeId==1){
+            wx.navigateTo({
+                url: "/page/part-time-detail/index?postId=1"
+            })
+        }else{
+            wx.navigateTo({
+                url: "/page/full-time-detail/index?postId=1"
+            })
+        }
     },
 })

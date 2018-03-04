@@ -34,4 +34,13 @@ P('index', {
       //this.getPayCourseList();
       wx.stopPullDownRefresh()
     },
+
+    /**
+     * 点击跳转到举报页面
+     * **/
+    toTipOffTap: function (e) {
+      wx.navigateTo({
+        url: "/page/tip-off-add/index?postId=1"
+      })
+    },
 })
