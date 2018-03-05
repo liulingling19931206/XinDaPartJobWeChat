@@ -1,5 +1,6 @@
 {
   "pages": [ 
+    "page/personInfo/personInfo",
     "page/post-index/index",
     "page/full-time-detail/index", 
     "page/tip-off-add/index",      

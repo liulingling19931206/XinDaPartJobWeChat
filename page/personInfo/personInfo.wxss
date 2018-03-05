@@ -1,0 +1,224 @@
+.container {
+  background-color: #fff;
+  min-height: 100%;
+  overflow-x: hidden;
+}
+
+.recommendView {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(239, 239, 244, 1);
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 22rpx;
+  justify-content: space-between;
+  padding: 0 30rpx;
+  color: #0086f7;
+}
+
+.recommend-btn {
+  color: #fff;
+  background-color: #0086f7;
+  padding: 0rpx 30rpx;
+  height: 60rpx;
+  margin-top: 10rpx;
+  line-height: 60rpx;
+}
+
+/*个人信息  */
+.head-view {
+  padding: 20rpx 30rpx;
+}
+
+.head-info {
+  /* display: flex; */
+  /* flex-direction: row;
+  flex-wrap: nowrap; */
+  overflow: hidden;
+}
+
+.head-image {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 150rpx;
+  float: left;
+}
+
+.person-info-view {
+  /* display: flex;
+  flex-direction: column; */
+  width: 40%;
+  padding-left: 30rpx;
+  float: left;
+  margin-top: 20rpx;
+}
+
+.map-img {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 80rpx;
+  float: right;
+  margin-top: 30rpx;
+}
+
+.party-job-type {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 50rpx;
+}
+
+.head-view {
+  background-color: red;
+}
+
+.my-party-job {
+   background-color: #fff;
+   padding: 20rpx 40rpx;
+}
+
+.my-all-job {
+   background-color: #fff;
+   padding: 20rpx 40rpx;
+}
+
+/*兼职岗位信息  */
+
+.resume-info {
+  display: flex;
+  flex-direction: row;
+  padding: 30rpx;
+  flex-wrap: wrap;
+}
+
+.resume-item {
+  width: 50%;
+  overflow: hidden;
+  padding: 20rpx 0;
+}
+
+.resume-image {
+  width: 80rpx;
+  height: 80rpx;
+  float: left;
+  margin-top: 20rpx;
+}
+
+.resume-detail {
+  float: left;
+  margin-left: 20rpx;
+  margin-top: 10rpx;
+}
+
+.word-num {
+  font-size: 35rpx;
+}
+
+.company {
+  font-size: 26rpx;
+}
+
+.word-describe {
+  font-size: 28rpx;
+}
+
+/*  优质雇主列表*/
+
+.warning-img {
+  width: 60rpx;
+  height: 60rpx;
+  margin-top: 10rpx;
+}
+
+.employer-item {
+  width: 100%;
+  height: 160rpx;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #ddd;
+}
+
+.employer-item-left {
+  width: 20%;
+  float: left;
+}
+
+.employer-head-img {
+  width: 120rpx;
+  height: 120rpx;
+  margin-top: 20rpx;
+  
+}
+
+.employer-info {
+  float: left;
+  width: 60%;
+}
+
+.employer-name {
+  font-size: 26rpx;
+}
+
+.employer-class {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  font-size: 26rpx;
+}
+
+.employer-class-img , .employer-position-img {
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.employer-go-img {
+  width: 60rpx;
+  height: 60rpx;
+  float: right;
+}
+
+/*小程序列表  */
+
+.concer-btn {
+  display: inline-block;
+  background-color: green;
+  color: #fff;
+  padding: 20rpx 50rpx;
+  font-size: 30rpx;
+}
+
+.program-item {
+  margin-top: 40rpx;
+  padding: 60rpx 30rpx;
+  overflow: hidden;
+  height: 120rpx;
+  border:1px solid red;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+}
+
+.col-20 {
+  width: 20%;
+  float: left;
+}
+
+.col-60 {
+  width: 60%;
+  float: left;
+}
+
+.program-img {
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.change-city {
+  width: 100%;
+  margin: 40rpx 0;
+  border:1px solid #ddd;
+  font-size: 30rpx;
+  color: #333;
+  padding: 20rpx 0;
+  text-align: center;
+}
