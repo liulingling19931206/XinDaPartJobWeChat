@@ -1,10 +1,11 @@
 {
   "pages": [ 
-    "page/personInfo/personInfo",
+    "page/party-job-list/index",
     "page/post-index/index",
     "page/full-time-detail/index", 
     "page/tip-off-add/index",      
-    "page/part-time-detail/index"
+    "page/part-time-detail/index",
+    "page/personInfo/personInfo"
   ],
   "window": {
     "navigationBarTextStyle": "#ffffff",
@@ -22,7 +23,7 @@
     "box-shadow": "0 0 6px 0",
     "list": [
       {
-        "pagePath": "page/post-index/index",
+        "pagePath": "page/personInfo/personInfo",
         "iconPath": "image/icon/index-gray.png",
         "selectedIconPath": "image/icon/index-red.png",
         "text": "个人中心"

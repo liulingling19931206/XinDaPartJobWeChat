@@ -1,4 +1,4 @@
-<!--首页页面-->
+onPullDownRefresh<!--首页页面-->
 <!--1px = 750/320 = 2.34rpx;-->
 <view class="container">
   <view class="type-container">

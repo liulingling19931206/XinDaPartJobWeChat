@@ -1,0 +1,27 @@
+<view class='swipter-containt'>
+  <scroll-view scroll-y='true' style="height: 100%;" bindscrolltolower="loadMore">
+    <view wx:for='{{dataArr}}' wx:for-item="item" wx:key="unique">
+    <view class='swipter-item'>
+      <view class='row'>
+        <view class='col-75'>
+          <view class='party-work-name'>{{item}}</view>
+          <view class='work-describe'>
+            <view class='work-type'>全职</view>
+            <view class='is-release'>未发布</view>
+          </view>
+        </view>
+        <view class='col-25'>
+          <view class='btn-row'>
+            <image src='../../image/post/dingwei.png' class='delete-img'></image>
+            <view class='line-shu'></view>
+            <image src='../../image/post/dingwei.png' class='edite-img'></image>
+          </view>
+          <view class='go-up'>上架</view>
+        </view>
+      </view>
+      <view class='release-time'>今天10：05</view>
+    </view>
+  </view>
+  </scroll-view>
+  
+</view>
