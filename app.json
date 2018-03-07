@@ -5,7 +5,7 @@
     "page/full-time-detail/index", 
     "page/tip-off-add/index",      
     "page/part-time-detail/index",
-    "page/personInfo/personInfo"
+    "page/person-info/index"
   ],
   "window": {
     "navigationBarTextStyle": "#ffffff",

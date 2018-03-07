@@ -60,6 +60,9 @@
   margin-bottom: 20rpx;
   font-size: 38rpx;
   color: #333;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .work-describe{
