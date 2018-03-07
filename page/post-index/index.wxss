@@ -158,3 +158,110 @@ swiper-item image {
 .wrz-btn{
   color: rgb(136, 136, 136);
 }
+
+/* 弹窗样式 */
+.modal-mask {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #000;
+    opacity: 0.5;
+    overflow: hidden;
+    z-index: 9000;
+    color: #fff;
+}
+ 
+.modal-dialog {
+    width: 570rpx;
+     height: 698rpx;
+    position: fixed;
+    left: 90rpx;
+    top: 192rpx;
+    z-index: 9999;
+  border-radius: 10rpx;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 30px 0px rgba(4, 0, 0, 0.75);
+}
+.modal-content{
+  width: 570rpx;
+  height: 698rpx;
+  position: relative;
+}
+.m-title{
+  font-size: 34.235rpx;
+  color: rgb(230, 67, 64);
+  text-align: center;
+  width: 100%;
+  height: 80rpx;
+  line-height: 80rpx;
+  border-bottom: 2rpx solid rgb(217, 217, 217);
+}
+.m-list{
+  width: 92%;
+  margin: 0 auto;
+  clear: both;
+  height: 400rpx;
+}
+.m-item{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  border:2rpx solid rgb(217, 217, 217);
+  background-color: rgb(250, 250, 250);
+  box-shadow: 0px 0px 10px 0px rgba(4, 0, 0, 0.1);
+  margin-top: 30rpx;
+  float: left;
+  margin-left: 20rpx;
+}
+
+.m-item-2{
+   width: 88rpx;
+  height: 88rpx;
+  line-height: 88rpx;
+  margin: 5rpx 5rpx;
+   background-color: rgb(242, 242, 242);
+   border-radius: 50%;
+  border:2rpx solid rgb(217, 217, 217);
+  font-size: 30rpx;
+  color: rgba(53, 53, 53, 0.502);
+  font-weight: bold;
+  text-align: center;
+}
+.m-no-sign{
+  background-color: rgb(255, 255, 255);
+}
+.sign-btn{
+  border-radius: 43rpx;
+  background-color: rgb(230, 67, 64);
+  width: 80%;
+  height: 76rpx;
+  line-height: 80rpx;
+  margin: 50rpx auto 0 auto;
+  border:6rpx solid rgb(230, 67, 64);
+  font-size: 34rpx;
+  color: white;
+  text-align: center;
+}
+.tips{
+   font-size: 24rpx;
+  color: rgb(136, 136, 136);
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+}
+.close{
+  position:absolute;
+  left:563rpx;
+  top:-67rpx;
+  width:50rpx;
+  height:50rpx;
+  z-index:9999;
+}
+.blur{
+  -webkit-filter: blur(10rpx);
+  -moz-filter: blur(10rpx);
+  -o-filter: blur(10rpx);
+  filter: blur(10rpx);
+}

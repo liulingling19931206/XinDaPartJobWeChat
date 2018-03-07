@@ -16,6 +16,8 @@ P('index', {
       //2:检索分类
       activeTypeId:1,     //切换兼职or全职
       activeSubTypeId:1,  //切换全部区域or雇主等级or岗位分类
+      //签到弹窗参数
+      showSignModal:true,
     },
 
     onLaunch: function () {
@@ -85,4 +87,13 @@ P('index', {
             })
         }
     },
+    
+    /**
+     * 点击关闭签到弹窗
+     * **/
+    closeSignModal:function(){
+      this.setData({
+        showSignModal: false
+      });
+    }
 })
