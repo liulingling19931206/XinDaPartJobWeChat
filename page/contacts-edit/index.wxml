@@ -35,5 +35,5 @@
         </view>
       </view>
     </view>
-     <button type="primary" bindtap="primary" class="primary"> 提交 </button>
+     <button type="primary" bindtap="primary" class="primary"> 保存 </button>
 </view>

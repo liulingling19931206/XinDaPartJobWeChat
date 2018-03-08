@@ -1,5 +1,6 @@
 {
   "pages": [ 
+    "page/buy-vip/index",
     "page/contacts-edit/index",
     "page/contacts-list/index",
     "page/post-index/index",
@@ -51,7 +52,7 @@
         "text": "人才"
       },
       {
-        "pagePath": "page/contacts-edit/index",
+        "pagePath": "page/buy-vip/index",
         "iconPath": "image/icon/icon_gerenzhongxin.png",
         "selectedIconPath": "image/icon/icon_gerenzhongxinred.png",
         "text": "企业中心"
