@@ -1,0 +1,39 @@
+<!--联系人(新增&&编辑)页面-->
+<!--1px = 750/320 = 2.34rpx;-->
+<view class="container">
+  <view class='info-contenter'>
+    <view class='info-title'>
+      <view class="info-line">
+      </view>
+      <span class="info-text">
+        头像
+      </span>
+      <span class="info-tip">(上传头像提高30%招聘效率)</span>
+      </view>
+    </view>
+    <view class='info-con'>
+      <view class="add-photo">
+        <image src='../../image/post/add.png'></image>
+      </view>
+    </view>
+    <view class="info-list">
+      <view class="section">
+        <view class="section__title">姓名</view>
+        <input  bindinput="bindKeyInput" placeholder="输入您的姓名"/>
+      </view>
+      <view class="section">
+        <view class="section__title">手机</view>
+        <view class='row'>
+          <span>未认证</span>
+           <image src='../../image/company-center/row-right.png'></image>
+        </view>
+      </view>
+       <view class="section">
+        <view class="section__title">实名认证</view>
+        <view class='row'>
+           <image src='../../image/company-center/row-right.png' style='margin-left:108rpx;'></image>
+        </view>
+      </view>
+    </view>
+     <button type="primary" bindtap="primary" class="primary"> 提交 </button>
+</view>

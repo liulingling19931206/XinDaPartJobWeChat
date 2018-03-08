@@ -1,5 +1,6 @@
 {
   "pages": [ 
+    "page/contacts-edit/index",
     "page/contacts-list/index",
     "page/post-index/index",
     "page/party-resume-list/index",
@@ -50,7 +51,7 @@
         "text": "人才"
       },
       {
-        "pagePath": "page/contacts-list/index",
+        "pagePath": "page/contacts-edit/index",
         "iconPath": "image/icon/icon_gerenzhongxin.png",
         "selectedIconPath": "image/icon/icon_gerenzhongxinred.png",
         "text": "企业中心"
