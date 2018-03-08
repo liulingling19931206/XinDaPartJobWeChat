@@ -1,5 +1,6 @@
 {
   "pages": [ 
+    "page/party-resume-list/index",
     "page/post-index/index",
     "page/company-login/index",
     "page/party-job-list/index",
@@ -24,7 +25,7 @@
     "box-shadow": "0 0 6px 0",
     "list": [
       {
-        "pagePath": "page/personInfo/personInfo",
+        "pagePath": "page/person-info/index",
         "iconPath": "image/icon/index-gray.png",
         "selectedIconPath": "image/icon/index-red.png",
         "text": "个人中心"
