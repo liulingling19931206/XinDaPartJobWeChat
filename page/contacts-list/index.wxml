@@ -1,0 +1,23 @@
+<!--联系人列表页面-->
+<!--1px = 750/320 = 2.34rpx;-->
+<view class="container">
+  <view class='contracts-list'>
+    <view class='contracts-item' wx:for="{{[1, 2, 3]}}" wx:for-item="i">
+      <image src='../../image/post/head-img.png' class='head-img'>
+      </image>
+      <view class='info'>
+        <span class="name"><span>李经理</span><span>18654223124</span></span>
+        <span class="tip">招聘联系人已实名认证</span>
+      </view>
+      <view class="op">
+        <image src='../../image/post/delete.png'></image>
+        <view></view>
+        <image src='../../image/post/edit.png'></image>
+      </view>
+    </view>
+  </view>
+  <view class="add-contracts">
+    <span class="icon">+</span>
+    <span class="text">新增招聘联系人信息</span>
+  </view>
+</view>
