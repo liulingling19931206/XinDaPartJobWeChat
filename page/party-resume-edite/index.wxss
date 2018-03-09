@@ -1,0 +1,100 @@
+.contain {
+  height: 100%;
+  background-color: #efeff3;
+}
+
+.finish-box {
+  background-color: #fff;
+  padding: 40rpx 35rpx 20rpx 35rpx;
+  border-bottom: 1rpx solid #ddd;
+}
+
+.finish-name {
+  font-size: 22rpx;
+  color: rgb(9, 187, 7);
+}
+
+.finish-rate {
+  font-size: 34rpx;
+  color: rgb(9, 187, 7);
+}
+
+.prograss-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 15rpx;
+  margin-bottom: 50rpx;
+}
+
+.prograsss-icon {
+  width: 15rpx;
+  height: 15rpx;
+}
+
+.line-heng-green {
+  display: inline-block;
+  width: 70rpx;
+  height: 2rpx;
+  background-color: rgb(9, 187, 7);
+  position: relative;
+  top: 5rpx;
+}
+
+.line-heng {
+  display: inline-block;
+  width: 70rpx;
+  height: 2rpx;
+  background-color: rgb(217, 217, 217);
+  position: relative;
+  top: 5rpx;
+}
+
+.row {
+  width: 100%;
+  overflow: hidden;
+}
+
+.col-33 {
+  width: 33.33333%;
+  float: left;
+  text-align: center;
+  position: relative;
+  font-size: 26rpx;
+  color: rgb(136, 136, 136);
+}
+
+.line-shu {
+  position: absolute;
+  top: 5rpx;
+  right: 1rpx;
+  width: 2rpx;
+  height: 26rpx;
+  background-color: rgb(214, 214, 214);
+}
+
+.resume-btn-arr {
+  padding: 15rpx 35rpx;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.btn-ground,.btn-reflash,.btn-preview,.btn-save {
+  display: inline-block;
+  width: 120rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  text-align: center;
+  color: rgb(53, 53, 53);
+  border: 1rpx solid #ddd;
+  border-radius: 8rpx;
+  font-size: 26rpx;
+}
+
+.resume-title-box {
+  height: 88rpx;
+  border: 1rpx solid #ddd;
+  padding: 0 35rpx;
+}

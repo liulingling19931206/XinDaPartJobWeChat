@@ -3,14 +3,16 @@
     <view class='recommend-span-blue'>推荐好友使用可+10积分</view>
     <view class='recommend-btn'>推荐</view>
   </view>
-  <view class='head-view'>
+  <view class='head-view' style="background-image: url('../../image/person/person-bg.jpg')">
     <view class='head-info'>
-      <image class='head-image' src='../../image/post/post-search.png' mode='scaleToFill'></image>
+      <view class='head-image-box'>
+       <image class='head-image' src='{{headImg}}' mode='scaleToFill'></image>
+      </view>
       <view class='person-info-view'>
         <view class='person-name'>李明龙</view>
         <view class='integral-rule'>积分规则</view>
       </view>
-      <image class='map-img' src='../../image/post/post-search.png' mode='scaleToFill'></image>
+      <image class='map-img' src='../../image/person/location.png' mode='scaleToFill'></image>
     </view>
     <view class='party-job-type'>
       <view class='my-party-job'>我的兼职简历</view>
@@ -19,7 +21,7 @@
   </view>
   <view class='resume-info'>
     <view class='resume-item'>
-      <image src='../../image/post/post-search.png' class='resume-image'></image>
+      <image src='../../image/person/matching.png' class='resume-image'></image>
       <view class='resume-detail'>
         <view>
           <span class='word-num'>66</span>
@@ -31,60 +33,62 @@
       </view>
     </view>
     <view class='resume-item'>
-      <image src='../../image/post/post-search.png' class='resume-image'></image>
+      <image src='../../image/person/commond.png' class='resume-image'></image>
       <view class='resume-detail'>
         <view>
           <span class='word-num'>66</span>
           <span class='company'>个</span>
         </view>
         <view class='word-describe'>
-          智能岗位匹配
+          平台推荐岗位
+        </view>
+      </view>
+      <view class='line-shu'></view>
+    </view>
+    <view class='resume-item'>
+      <image src='../../image/person/interview.png' class='resume-image'></image>
+      <view class='resume-detail'>
+        <view>
+          <span class='word-num'>66</span>
+          <span class='company'>个</span>
+        </view>
+        <view class='word-describe'>
+          面试邀请记录
         </view>
       </view>
     </view>
     <view class='resume-item'>
-      <image src='../../image/post/post-search.png' class='resume-image'></image>
+      <image src='../../image/person/delivery.png' class='resume-image'></image>
       <view class='resume-detail'>
         <view>
           <span class='word-num'>66</span>
           <span class='company'>个</span>
         </view>
         <view class='word-describe'>
-          智能岗位匹配
+          已投递的岗位
         </view>
-      </view>
-    </view>
-    <view class='resume-item'>
-      <image src='../../image/post/post-search.png' class='resume-image'></image>
-      <view class='resume-detail'>
-        <view>
-          <span class='word-num'>66</span>
-          <span class='company'>个</span>
-        </view>
-        <view class='word-describe'>
-          智能岗位匹配
-        </view>
+        <view class='line-shu'></view>
       </view>
     </view>
   </view>
   <view class='recommendView'>
-    <view class='recommend-span-blue'>推荐好友使用可+10积分</view>
-    <image src='../../image/post/post-search.png' class='warning-img'></image>
+    <view class='good-employer-title'>优选雇主</view>
+    <image src='../../image/person/' class='warning-img'></image>
   </view>
   <view class='employer-list'>
     <view class='employer-item'>
       <view class='employer-item-left'>
-        <image src='../../image/post/post-search.png' class='employer-head-img'></image>
+        <image src='../../image/post/company.png' class='employer-head-img'></image>
       </view>
       <view class='employer-info'>
         <view class='employer-name'>天之瑶网络科技公司</view>
         <view class='employer-class'>
-          <view>
-            <image class='employer-class-img' src='../../image/post/post-search.png'></image>
+          <view class='employer-box'>
+            <image class='employer-class-img' src='../../image/person/guzhu.png'></image>
             <span>一级雇主</span>
           </view>
-          <view>
-            <image class='employer-position-img' src='../../image/post/post-search.png'></image>
+          <view class='job-box'>
+            <image class='employer-position-img' src='../../image/person/gangwei.png'></image>
             <span>2个招聘信息</span>
           </view>
         </view>
@@ -96,12 +100,12 @@
   </view>
   <view class='program-list'>
     <view class='program-item'>
-      <view class='col-20'>
-        <image src='../../image/post/post-search.png' class='program-img'></image>
+      <view class='col-20 img-center'>
+        <image src='../../image/post/contacts.png' class='program-img'></image>
       </view>
       <view class='col-60'>
-        <view>新大课堂</view>
-        <view>副标题描述</view>
+        <view class='program-title'>新大课堂</view>
+        <view class='program-describe'>副标题描述</view>
       </view>
       <view class='col-20'>
         <view class='concer-btn'>关注</view>

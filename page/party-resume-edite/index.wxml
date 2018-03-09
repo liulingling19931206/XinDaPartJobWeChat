@@ -1,0 +1,49 @@
+<view class='contain'>
+  <view class='finish-box'>
+    <view class='finish-title'>
+      <text class='finish-name'>简历信息完成度：</text>
+      <text class='finish-rate'>35%</text>
+    </view>
+    <view class='prograss-box'>
+      <image src='../../image/person/guzhu.png' class='prograsss-icon'></image>
+      <view class='line-heng-green'></view>
+      <image src='../../image/person/guzhu.png' class='prograsss-icon'></image>
+      <view class='line-heng'></view>
+      <image src='../../image/person/guzhu.png' class='prograsss-icon'></image>
+      <view class='line-heng'></view>
+      <image src='../../image/person/guzhu.png' class='prograsss-icon'></image>
+      <view class='line-heng'></view>
+      <image src='../../image/person/guzhu.png' class='prograsss-icon'></image>
+      <view class='line-heng'></view>
+      <image src='../../image/person/guzhu.png' class='prograsss-icon'></image>
+      <view class='line-heng'></view>
+      <image src='../../image/person/guzhu.png' class='prograsss-icon'></image>
+      <view class='line-heng'></view>
+      <image src='../../image/person/guzhu.png' class='prograsss-icon'></image>
+    </view>
+    <view class='row resume-info'>
+      <view class='col-33'>
+        <view>564浏览</view>
+        <view class='line-shu'></view>
+      </view>
+      <view class='col-33'> 
+        <view>564浏览</view>
+        <view class='line-shu'></view>
+      </view>
+      <view class='col-33'>
+        <view>564浏览</view>
+      </view>
+    </view>
+  </view>
+  <view class='resume-btn-arr'>
+    <view class='btn-ground'>上架</view>
+    <view class='btn-reflash'>上架</view>
+    <view class='btn-preview'>上架</view>
+    <view class='btn-save'>上架</view>
+  </view>
+  <view class='resume-title-box'>
+    <view class='line-shu-big'></view>
+    <view class='resume-title-name'>头像</view>
+    <view class='resume-title-des'>(上传头像，简历查看率增加20%)</view>
+  </view>
+</view>

@@ -38,7 +38,7 @@ P('index', {
       icon: 'success',
       duration: 2000
     })
-    wx.stopPullDownRefresh();
+    // wx.stopPullDownRefresh();
   },
   
   /**
@@ -46,10 +46,10 @@ P('index', {
    */
 
   loadMore: function() {
-    var newArr = this.data.dataArr;
-    newArr = newArr.concat(newArr); 
-    this.setData({
-      dataArr: newArr
-    })
+    // var newArr = this.data.dataArr;
+    // newArr = newArr.concat(newArr); 
+    // this.setData({
+    //   dataArr: newArr
+    // })
   }  
 })

@@ -21,34 +21,12 @@ P('index', {
       }
     })
     wx.setNavigationBarTitle({
-      title: '兼职简历列表'
+      title: '兼职简历编辑'
     })
     wx.showShareMenu({
       withShareTicket: true
     })
   },
 
-  /**
-     * 下拉刷新
-     * **/
-  onPullDownRefresh: function () {
-    wx.showToast({
-      title: '成功',
-      icon: 'success',
-      duration: 2000
-    })
-    wx.stopPullDownRefresh();
-  },
   
-  /**
-   * 上拉加载更多
-   */
-
-  loadMore: function() {
-    var newArr = this.data.dataArr;
-    newArr = newArr.concat(newArr); 
-    this.setData({
-      dataArr: newArr
-    })
-  }  
 })

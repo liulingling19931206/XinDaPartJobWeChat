@@ -3,11 +3,12 @@
     "page/work-info/index",
     "page/contacts-edit/index",
     "page/contacts-list/index",
+    "page/party-resume-edite/index",
+    "page/party-resume-list/index",
     "page/post-index/index",
     "page/party-resume-list/index",
     "page/company-login/index",
-    "page/party-job-list/index",
-    "page/full-time-detail/index", 
+    "page/full-time-detail/index",
     "page/tip-off-add/index",      
     "page/part-time-detail/index",
     "page/person-info/index",
@@ -54,7 +55,7 @@
         "text": "人才"
       },
       {
-        "pagePath": "page/buy-vip/index",
+        "pagePath": "page/company-login/index",
         "iconPath": "image/icon/icon_gerenzhongxin.png",
         "selectedIconPath": "image/icon/icon_gerenzhongxinred.png",
         "text": "企业中心"
