@@ -1,0 +1,14 @@
+<view class='contain'>
+  <view class='word-type-box'>
+    <view>
+      <view>职位类别</view>
+      <view>点击选择</view>
+      <image src='../../image/company-center/row-right.png'></image>
+    </view>
+    <view>
+      <view>工作地点</view>
+      <view>点击选择</view>
+      <image src='../../image/company-center/row-right.png'></image>
+    </view>
+  </view>
+</view>

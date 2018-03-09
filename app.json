@@ -1,6 +1,6 @@
 {
   "pages": [ 
-    "page/buy-vip/index",
+    "page/work-info/index",
     "page/contacts-edit/index",
     "page/contacts-list/index",
     "page/post-index/index",
@@ -10,7 +10,9 @@
     "page/full-time-detail/index", 
     "page/tip-off-add/index",      
     "page/part-time-detail/index",
-    "page/person-info/index"
+    "page/person-info/index",
+    "page/verificate-phone/index",
+    "page/buy-vip/index"
   ],
   "window": {
     "navigationBarTextStyle": "#ffffff",
